@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- Begin Head -->
+
+<head>
+    <title>Countdown Until My Birthday</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+
+<body id="image" onLoad="typeH1()">
+    <h1 id="head"></h1>
+    <div id="show">
+        <div id="countdown">
+            <div class="slot">
+                <span class="days" id="day"></span>
+                <div class="text">Days</div>
+            </div>
+            <div class="slot">
+                <span class="hours" id="hour"></span>
+                <div class="text">Hours</div>
+            </div>
+            <div class="slot">
+                <span class="minutes" id="minute"></span>
+                <div class="text">Minutes</div>
+            </div>
+            <div class="slot">
+                <span class="seconds" id="second"></span>
+                <div class="text">Seconds</div>
+            </div>
+            <!-- End Timer -->
+        </div>
+        <!-- End Countdown -->
+    </div>
+    <!-- End Div Show -->
+    <!-- Begin Msg -->
+    <p id="msg">HAPPY BIRTHDAY TO ME!!!!</p>
+    <!-- End Msg -->
+    <!-- Begin Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#show").hide(0).delay(3895).fadeIn(6000)
+        });
+    </script>
+    <!-- End script -->
+    <!-- Begin No Script Tag -->
+    <noscript>Sorry, Your browser does not support JavaScript!</noscript>
+    <!-- End No Script Tag -->
+</body>
+<!-- End Body -->
+
+</html>

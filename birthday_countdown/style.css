@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #0a74ec;
+background: linear-gradient(90deg, rgba(43,66,255,1) 0%, rgba(47,103,193,1) 36%, rgba(0,191,255,1) 100%);
     font-family: Cursive;
     font-weight: bold;
     text-align: center;

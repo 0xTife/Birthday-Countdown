@@ -22,7 +22,8 @@ h1 {
 }
 
 #countdown {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     color: #fff;
     font-family: quicksand;
     font-size: 30px;
@@ -30,7 +31,7 @@ h1 {
 }
 
 #countdown>.slot {
-    display: inline-block;
+    flex: 1;
     background: #fff;
     border-radius: 3px;
     padding: 8px;

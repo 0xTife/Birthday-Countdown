@@ -34,7 +34,7 @@ h1 {
 }
 
 #countdown>.slot {
-    width: 150px;
+    width: 180px;
     margin: 20px auto;
     background: #fff;
     border-radius: 5px;
@@ -52,11 +52,12 @@ h1 {
     background: none;
     border-radius: 3px;
     padding: 12px;
+    font-size: 22px;
 }
 
 .text {
     color: #000;
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 5px;
 }
 

@@ -53,11 +53,13 @@ h1 {
     border-radius: 3px;
     padding: 12px;
     font-size: 22px;
+    font-family: cursive;
 }
 
 .text {
     color: #000;
     font-size: 25px;
+    font-family: cursive;
     padding-top: 5px;
 }
 

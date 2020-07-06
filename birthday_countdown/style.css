@@ -33,24 +33,28 @@ h1 {
 }
 
 #countdown>.slot {
-    flex: 150px;
+    width: 150px;
     margin: 20px 0;
     background: #fff;
     border-radius: 3px;
     padding: 8px;
 }
+.slot:hover{
+    cursor: pointer;
+    transition: all 2s ease-in;
+}
 
 #countdown>.slot>span {
     display: inline-block;
-    color: #000;
-    background: #0a74ec;
+    color: #0a74ec;
+    background: none;
     border-radius: 3px;
     padding: 12px;
 }
 
 .text {
     color: #000;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 5px;
 }
 

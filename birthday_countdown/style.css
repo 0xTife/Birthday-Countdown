@@ -35,14 +35,15 @@ h1 {
 
 #countdown>.slot {
     width: 150px;
-    margin: 20px 0;
+    margin: 20px auto;
     background: #fff;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 8px;
 }
 #countdown >.slot:hover{
     cursor: pointer;
     z-index: 1;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, .5);
 }
 
 #countdown>.slot>span {

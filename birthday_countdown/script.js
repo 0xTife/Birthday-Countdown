@@ -11,7 +11,7 @@ function typeH1() {
     }
 }
 
-var countDownDate = new Date("July 14, 2020 12:00:00").getTime();
+var countDownDate = new Date("July 14, 2020 00:00:00").getTime();
 
 var x = setInterval(function() {
 
